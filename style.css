@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: rgb(142, 201, 221);
+    color: white;
+    padding: 30px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+
+.container-2 {
+    display: flex;
+    margin: 20px;
+}
+
+.container-2 h2 {
+    margin-top: 10px;
+}
+
+
+/* SEARCH BOX */
+
+.searchbox {
+    position: relative;
+    left: 65%;
+}
+
+.searchbox i {
+    position: relative;
+    top: 12px;
+}
+
+.searchbox input {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+
+
+/* TABLE */
+
+table{
+    margin-bottom: 40px;
+}
+
+table th {
+    padding: 12px 81px;
+    background-color: lightseagreen;
+}
+
+table td{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+
+
+/* NEW ENTRY */
+
+.container-3 {
+    background-color: lightgrey;
+    padding: 35px;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.box {
+    margin: 20px;
+}
+
+div button{
+    padding: 3px;
+    position: relative;
+    left: 65px;
+    cursor: pointer;
+}
+table button{
+    max-width: 40px;
+}
